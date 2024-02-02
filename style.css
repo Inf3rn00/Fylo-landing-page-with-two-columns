@@ -231,7 +231,7 @@ input {
 
 .login-section {
   background-color: hsl(238, 22%, 44%);
-  height: 350px;
+width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
