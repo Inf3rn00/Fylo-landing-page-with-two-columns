@@ -182,6 +182,7 @@ input {
 .links {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: 'Open Sans';
 }
 .testimonial-left a:hover {
   color: hsl(170, 69%, 49%);
@@ -567,5 +568,19 @@ width: 100%;
   .team,
   .sign {
     padding: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar img {
+    width: 80px;
+  }
+
+  .feat,
+  .team,
+  .sign {
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 5px;
   }
 }
