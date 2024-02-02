@@ -286,7 +286,6 @@ input {
 .details-section {
   background-color: hsl(243, 87%, 12%);
   width: 100%;
-  height: 380px;
   color: white;
   padding: 40px;
 }
@@ -496,7 +495,7 @@ input {
   }
 
   .testimonial p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .login-section {
@@ -518,7 +517,7 @@ input {
   }
 
   .details-section {
-    height: 510px;
+    width: 100%;
   }
 
   .footer-body {
@@ -533,9 +532,9 @@ input {
     width: 150px;
   }
 
-  .footer-body {
+  /* .footer-body {
     margin-top: -50px;
-  }
+  } */
 
   .phone-email,
   .footer-details-one,
