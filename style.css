@@ -467,7 +467,8 @@ input {
   }
 
   .testimonial-left h2,
-  .test-para {
+  .test-para,
+  .test-para2 {
     padding: 20px;
   }
 
@@ -522,6 +523,7 @@ input {
 
   .footer-body {
     flex-direction: column;
+    margin-top: 30px;
   }
 
   .socials {
@@ -531,10 +533,6 @@ input {
   .footer-heading img {
     width: 150px;
   }
-
-  /* .footer-body {
-    margin-top: -50px;
-  } */
 
   .phone-email,
   .footer-details-one,
@@ -562,7 +560,7 @@ input {
 
 @media (max-width: 450px) {
   .navbar img {
-    width: 80px;
+    width: 100px;
   }
 
   .feat,
