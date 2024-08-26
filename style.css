@@ -403,10 +403,10 @@ width: 100%;
     flex-direction: column-reverse;
   }
   #error-message{
-    left:45%
+    left:40%
   }
   #error-message2{
-    left:17%;
+    left:15%;
     top:45px
   }
 
@@ -561,7 +561,7 @@ width: 100%;
 
 @media (max-width: 650px){
   #error-message{
-    left:43%
+    left:35%
   }
 }
 
@@ -570,7 +570,7 @@ width: 100%;
     width: 120px;
   }
   #error-message{
-    left:40%
+    left:30%
   }
 
   .socials i {
@@ -579,7 +579,13 @@ width: 100%;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
+  #error-message{
+    left: 32%
+  }
+}
+
+@media (max-width: 450px){
   .navbar img {
     width: 100px;
   }
@@ -612,6 +618,6 @@ width: 100%;
     margin-left: 0;
   }
   #error-message{
-    left:34%
+    left:26%
   }
 }
