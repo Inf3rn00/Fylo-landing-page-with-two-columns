@@ -59,10 +59,12 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <form action="/">
-            <input type="email" id="" placeholder="  Enter your email" />
+          <form id="form-1">
+              <input type="email" id="email-1" placeholder="  Enter your email" />
+              <small id="error-message"></small>
+           
             <div class="btn-holder">
-              <button class="button-one">Get Started</button>
+              <button class="button-one" >Get Started</button>
             </div>
           </form>
         </section>
@@ -145,13 +147,14 @@
 
         <div class="login-right">
           <div class="email-holder">
-            <form action="">
+            <form id="form-2">
               <input
               type="email"
               id="login-footer"
               placeholder="   email@example.com"
             />
-            <button class="button-two">Get Started For Free</button>
+            <small id="error-message2"></small>
+            <button class="button-two" type="submit">Get Started For Free</button>
             </form>
           
           </div>
@@ -213,4 +216,5 @@
       </p>
     </footer> -->
   </body>
+  <Script src="./sandbox.js"></Script>
 </html>

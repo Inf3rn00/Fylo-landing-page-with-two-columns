@@ -101,7 +101,18 @@ input {
   border: 1px hsl(238, 22%, 44%) solid;
   height: 30px;
   width: 40%;
+  padding:0 10px;
 }
+small{
+  color: red;
+  position: absolute;
+  left: 0px;
+  top:35px
+}
+#form-1,#form-2{
+  position: relative;
+}
+
 
 .button-one {
   height: 30px;
@@ -263,7 +274,6 @@ width: 100%;
 
 .email-holder input {
   width: 100%;
-  /* height: 40px; */
   border: 1px hsl(238, 22%, 44%) solid;
 }
 
@@ -275,7 +285,7 @@ width: 100%;
   border-radius: 5px;
   font-size: 13px;
   font-family: "Open Sans";
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .button-two:hover {
@@ -351,31 +361,18 @@ width: 100%;
   margin-left: 30px;
 }
 
-@media (max-width: 1054px) {
-  .testimonial-right img {
-    width: 60%;
-    height: 50%;
-  }
-
-  .hero-section img {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    padding-right: 30px;
-  }
-
-  .hero-left {
-    width: 80%;
-  }
-}
 
 @media (max-width: 1054px) {
   .testimonial-right img {
     width: 60%;
     height: 50%;
   }
+
+  #error-message{
+    left:0px;
+   top:40px
+  }
+
 
   .hero-section img {
     position: relative;
@@ -397,11 +394,20 @@ width: 100%;
     width: 60%;
     height: 50%;
   }
+ 
+ 
 }
 
 @media (max-width: 900px) {
   .hero-section {
     flex-direction: column-reverse;
+  }
+  #error-message{
+    left:45%
+  }
+  #error-message2{
+    left:17%;
+    top:45px
   }
 
   .hero-right {
@@ -430,6 +436,7 @@ width: 100%;
   form {
     text-align: center;
     width: 100%;
+    position: relative;
   }
 
   form input {
@@ -552,9 +559,18 @@ width: 100%;
   }
 }
 
+@media (max-width: 650px){
+  #error-message{
+    left:43%
+  }
+}
+
 @media (max-width: 500px) {
   .navbar img {
     width: 120px;
+  }
+  #error-message{
+    left:40%
   }
 
   .socials i {
@@ -567,7 +583,7 @@ width: 100%;
   .navbar img {
     width: 100px;
   }
-
+  
   .feat,
   .team,
   .sign {
@@ -594,5 +610,8 @@ width: 100%;
 
   .facebook{
     margin-left: 0;
+  }
+  #error-message{
+    left:34%
   }
 }
